@@ -25,5 +25,15 @@ int main()
            "The Student Grade is: %c\n",
            studentID, studentAge, studentFee, studentGrade);
 
+    // Third Program
+    int items = 50;
+    float cost_per_item = 9.99;
+    float total_cost = items * cost_per_item;
+    char currency = '$';
+
+    printf("Number of Items are: %i\n", items);
+    printf("Cost per Item is: %c%f\n", currency, cost_per_item);
+    printf("Total Cost is: %c%f", currency, total_cost);
+
     return 0;
 }
