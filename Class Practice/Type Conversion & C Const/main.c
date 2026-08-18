@@ -7,6 +7,6 @@ int main()
     float result = (float)a / b;
 
     printf("%f", result);
-  
+
     return 0;
 }
