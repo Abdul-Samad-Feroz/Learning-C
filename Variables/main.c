@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    // printf("Hello world");
+    printf("Hello world");
     // First Program
     int length = 4;
     int width = 6;
@@ -34,6 +34,18 @@ int main()
     printf("Number of Items are: %i\n", items);
     printf("Cost per Item is: %c%f\n", currency, cost_per_item);
     printf("Total Cost is: %c%f", currency, total_cost);
+
+    // Fourth Program
+    float p_price, p_quantity, total;
+
+    printf("Enter Product Price: ");
+    scanf("%f", &p_price);
+    printf("Enter Product Quantity: ");
+    scanf("%f", &p_quantity);
+
+    total = p_quantity * p_price;
+
+    printf("Total Price is %.2f", total);
 
     return 0;
 }
