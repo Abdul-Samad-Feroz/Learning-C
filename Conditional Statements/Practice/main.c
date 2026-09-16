@@ -74,7 +74,7 @@ int main()
         printf("Enter Valid Marks");
     }
 
-    // Nested If Else
+    // // Nested If Else
 
     int x = 15;
     int y = 25;
@@ -101,6 +101,27 @@ int main()
     int z = 10;
 
     (z >= 10) ? printf("\nZ is greater or equals to 10") : printf("\nZ is smaller than 10");
+
+    // Switch Statement
+
+    char letter;
+
+    printf("\nEnter a Letter: ");
+    scanf("%c", &letter);
+
+    switch (letter)
+    {
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':
+        printf("Letter is Vowel");
+        break;
+    default:
+        printf("Letter is Consonent");
+        break;
+    }
 
     return 0;
 }
