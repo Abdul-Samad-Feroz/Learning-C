@@ -72,28 +72,35 @@ int main()
     else
     {
         printf("Enter Valid Marks");
-        // }
-
-        // Nested If Else
-
-        int x = 15;
-        int y = 25;
-
-        if (x > 10)
-        {
-            printf("Parent class is true\n");
-            if (y < 20)
-            {
-                printf("Child class is true\n");
-            }
-            else if (y == 25)
-            {
-                printf("Child else is true");
-            }
-            else
-            {
-                printf("Child class is false");
-            }
-        }
-        return 0;
     }
+
+    // Nested If Else
+
+    int x = 15;
+    int y = 25;
+
+    if (x > 10)
+    {
+        printf("Parent class is true\n");
+        if (y < 20)
+        {
+            printf("Child class is true\n");
+        }
+        else if (y == 25)
+        {
+            printf("Child else is true");
+        }
+        else
+        {
+            printf("Child class is false");
+        }
+    }
+
+    // Ternary Operator
+
+    int z = 10;
+
+    (z >= 10) ? printf("\nZ is greater or equals to 10") : printf("\nZ is smaller than 10");
+
+    return 0;
+}
