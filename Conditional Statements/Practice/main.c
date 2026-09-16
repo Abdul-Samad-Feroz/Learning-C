@@ -29,7 +29,7 @@ int main()
     }
     else
     {
-        printf("Numbet is Negative");
+        printf("Number is Negative");
     }
 
     float user_marks;
@@ -72,6 +72,28 @@ int main()
     else
     {
         printf("Enter Valid Marks");
+        // }
+
+        // Nested If Else
+
+        int x = 15;
+        int y = 25;
+
+        if (x > 10)
+        {
+            printf("Parent class is true\n");
+            if (y < 20)
+            {
+                printf("Child class is true\n");
+            }
+            else if (y == 25)
+            {
+                printf("Child else is true");
+            }
+            else
+            {
+                printf("Child class is false");
+            }
+        }
+        return 0;
     }
-    return 0;
-}
