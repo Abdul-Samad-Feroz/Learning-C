@@ -20,5 +20,20 @@ int main()
         count++;
     }
 
+    int sum = 0;
+    int counter = 1;
+    int number;
+
+    printf("\nEnter the Number: ");
+    scanf("%i", &number);
+
+    while (counter <= number)
+    {
+        sum = counter + sum;
+        counter = counter + 1;
+    }
+
+    printf("%i\n", sum);
+
     return 0;
 }
